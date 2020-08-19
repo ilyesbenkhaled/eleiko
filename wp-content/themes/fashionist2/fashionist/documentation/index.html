@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Documentation &middot; Fashionist.</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+		<!--link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css" /-->
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/doc-script.js"></script>
+	</head>
+	<body>
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="http://themeplanet.com/" class="navbar-brand"><img src="https://fntbndls.global.ssl.fastly.net/images/logos/_theme-planet-logo/colour.svg" alt="Themeplanet" title="Themeplanet" style='height: 35px' /></a>
+		</div>
+		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation" style='float: right'>
+			<ul class="nav navbar-nav" style='margin-top: 22px;'>
+
+				<li><strong><a href="http://previewtheme.com/fashionist/" target="_blank">Live Preview Demo</a></strong></li>
+			</ul>
+		</nav>
+	</div>
+		<br >
+		<header>
+			<div class="container">
+				<div class="logo col-sm-6">FASHIONIST</div>
+				<div class="col-sm-18"><h3 class="text-right">Responsive Multipurpose WordPress WooCommerce Theme</h3></div>
+			</div>
+		</header>
+		<div class="main-content container">
+			<h1 class="border-1">Theme Documentation</h1>
+			<div class="row">
+				<div class="col-sm-7">
+					<ul class="docs-menu">
+						<li class="l1-item active"><a href="#sec_introduction">Introduction</a></li>
+						<li class="l1-item"><a>Installation</a>
+						<ul class="sub-menu">
+							<li><a href="#installation_wp">Theme installation via WordPress</a></li>
+							<li><a href="#installation_ftp">Theme installation via FTP</a></li>
+							<li><a href="#installation_plugin">Plugin installation</a></li>
+							<li><a href="#installation_pl_conf">Plugin Configuration</a></li>
+							
+						</ul>
+					</li>
+					<li class="l1-item"><a href="#theme_options">Theme Options</a></li>
+					<li class="l1-item"><a>Theme Configuration</a>
+					<ul class="sub-menu">
+						<li><a href="#change_your_logo">Change your logo</a></li>
+						<li><a href="#menus_configuration">Menus configuration</a></li>
+					</ul>
+				</li>
+				<li class="l1-item"><a>Themes pages</a>
+				<ul class="sub-menu">
+					<li><a href="#create_blog_page">Create blog page</a></li>
+					<li><a href="#create_contact_page">Create Contact page</a></li>
+				</ul>
+			</li>
+			<li class="l1-item"><a>Theme shortcodes</a>
+			<ul class="sub-menu">
+				<li><a href="#woocommerce_products_slider">Woocommerce products slider</a></li>
+				<li><a href="#woocommerce_latest_product">Woocommerce latest product</a></li>
+				<li><a href="#woocommerce_category_product">Woocommerce category product</a></li>
+				<li><a href="#woocommerce_category">Woocommerce category</a></li>				
+			</ul>
+		</li>
+		<li class="l1-item"><a href="#theme_update">Theme update</a></li>
+		<li class="l1-item"><a href="#credits">credits</a></li>
+	</ul>
+</div>
+<div class="col-sm-17 docs-content">
+	<div class="section-content docs_show" id="sec_introduction">
+		<h2 class="border-2">Introduction</h1>
+		<p class="lead">Thank you for downloading our theme.</p>
+		<p>This documentation presents information how to install and use this theme.
+	</p>
+	
+	<h2 class="border-2">Welcome to Fashionist WordPress Theme!</h2>
+	<p>Thank you for purchasing Fashionist Wordpress theme. Before you get started, please be sure to always check out this documentation. We outline all kinds of good information, and provide you with all the details you need know to use Fashionist Theme.</p>
+	
+	<h3>Compatible with</h3>
+	<p><span class="label label-primary text-color3">Wordpress 4.6 +</span> <span class="label label-primary">Woocommerce 2.6 +</span> <span class="label label-primary">WPBakery Visual Composer 4.11 +</span></p>
+	<h3>Wordpress Information</h3>
+	<p>To install this theme you must have a working version of Wordpress already installed. For information in regard to installing the WordPress platform, please see the <a href="http://codex.wordpress.org/Installing_WordPress" target="_blank"><span class="label label-primary">WordPress Codex</span></a></p>
+</div>
+<div class="section-content" id="installation_wp">
+	<h2 class="border-2">Theme installation via WordPress</h2>
+	<table class="table table-striped">
+		<tr>
+			<td><span class="label label-primary">Step 1</span></td>
+			<td><span style="font-weight: 400;"> Login to Wordpress Dasrdoard.</span></td>
+		</tr>
+		<tr>
+			<td><span class="label label-primary">Step 2</span></td>
+			<td>Go to <kbd><kbd>Appearance</kbd> &gt; <kbd>Themes</kbd></kbd>. Click<strong> Add new</strong> link and Upload Theme, choice a <strong>Fashionist-v[x].zip</strong> and click Install Now.</td>
+		</tr>
+		<tr>
+			<td><span class="label label-primary">Step 3</span></td>
+			<td>Go to <kbd><kbd>Appearance</kbd> &gt; <kbd>Themes</kbd></kbd>. Activate <strong>The Fashionist</strong> theme.</td>
+		</tr>
+	</table>
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+		</ol>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="images/installing-wp1.jpg" alt="installing-wp1">
+			</div>
+			<div class="item">
+				<img src="images/installing-wp2.jpg" alt="installing-wp2">
+			</div>
+			<div class="item">
+				<img src="images/installing-wp3.jpg" alt="installing-wp3">
+			</div>
+			<div class="item">
+				<img src="images/installing-wp4.jpg" alt="installing-wp4">
+			</div>
+		</div>
+		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+</div>
+<div class="section-content" id="installation_ftp">
+	<h2 class="border-2">Theme installation via FTP</h2>
+	<table class="table table-striped">
+		<tr>
+			<td width="55"><span class="label label-primary">Step 1</span></td>
+			<td>Connect to your <strong>FTP server</strong>, and navigate to your <strong>wordpress folder</strong>.</td>
+		</tr>
+		<tr>
+			<td><span class="label label-primary">Step 2</span></td>
+			<td>Unzip <strong>Fashionist-v[x].zip</strong> package, you will be <strong>Fashionist</strong> folder.</td>
+		</tr>
+		<tr>
+			<td><span class="label label-primary">Step 3</span></td>
+			<td>Upload <strong>Fashionist</strong> folder into <kbd>wp-content/themes/</kbd> folder.
+				<div class="docs-image text-center"><img src="images/fashionist-ftp-upload.png" alt="ftp-upload.png"></div>
+			</td>
+		</tr>
+		<tr>
+			<td><span class="label label-primary">Step 4</span></td>
+			<td>You login to Wordpress Dasrdoard. Go to <kbd><kbd>Appearance</kbd> &gt; <kbd>Themes</kbd></kbd> and Activate <strong>The Fashionist</strong> theme.
+				<div class="docs-image text-center"><img src="images/fashionist-theme.png" alt="fashionist-theme.png"></div>
+			</td>
+		</tr>
+	</table>
+</div>
+<div class="section-content" id="installation_plugin">
+	<h2 class="border-2">Plugin installation</h2>
+	<p>After activate <strong>Fashionist</strong> theme, you'll get the following message:</p>
+	<div class="docs-image text-center"><img src="images/install-plugin0.jpg" alt="install-plugin0.jpg"></div>
+	<p>Please click to “<strong>Begin Installing plugins</strong>” link to navigate to that page.</p>
+	<p>In <strong>Install Required Plugins</strong> page, you can ticking all plugin (and untick the recommending plugin, which you don't need to use).</p>
+	<div class="docs-image text-center"><img src="images/install-plugin1.jpg" alt="install-plugin1.jpg"></div>
+	<h3>Required plugins</h3>
+	<table class="table table-striped">
+		<tbody>
+			
+			<tr>
+				<td class="text-right"><span class="label label-primary text-color3">Redux Framework</span></td>
+				<td>Using to build theme options for Fashionist theme.</td>
+			</tr>
+			<tr>
+				<td class="text-right"><span class="label label-primary text-color3">WPBakery Visual composer</span></td>
+				<td>Drag and drop backend page builder that will save you tons of time working on our site content</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div class="section-content" id="installation_pl_conf">
+	<h2 class="border-2">Plugin Configuration</h2>
+	<h3>Visual composer</h3>
+	<p><strong> Visual Composer</strong> is a drag and drop <strong>frontend and backend page builder</strong> that will save you tons of time working on our site content. You’ll be able to take full control of your WordPress site, and build any layout you can imagine – no programming knowledge required! Not only that, but with our frontend and backend editor you can now choose whether you want to work on backend or move your page building process to frontend and instantly see any changes you make.</p>
+	<p>About <strong>Visual composer</strong> here: <a class="text-color1" href="https://wpbakery.atlassian.net/wiki/display/VC/Getting+Started" target="_blank">https://wpbakery.atlassian.net/wiki/display/VC/Getting+Started</a></p>
+	
+	<h3>Woocommerce</h3>
+	<p><strong>WooCommerce</strong> is a free eCommerce plugin that allows you to sell anything, beautifully. Built to integrate seamlessly with WordPress, WooCommerce is the world’s favorite eCommerce solution that gives both store owners and developers complete control.</p>
+	<p>About plugin here: <a class="text-color1" href="https://www.woothemes.com/woocommerce/" target="_blank">https://www.woothemes.com/woocommerce/</a></p>
+	<p>Download link: <a class="text-color1" href="https://wordpress.org/plugins/woocommerce/" target="_blank">https://wordpress.org/plugins/woocommerce/</a></p>
+	<p>Documentation: <a class="text-color1" href="https://docs.woothemes.com/documentation/plugins/woocommerce/" target="_blank">https://docs.woothemes.com/documentation/plugins/woocommerce/</a></p>
+	<div class="alert alert-warning" role="alert">
+		<p><strong>NOTE!</strong> After installing Woocommerce plugin, you will see the message:</p>
+		<div class="docs-image"><img src="images/plugin-woocommerce_1.png" alt="plugin-woocommerce_1.png"></div>
+		<p>Please skip this step, because we will setup it after installing theme dummy data.</p>
+	</div>
+	<div class="docs-image text-center"><img src="images/plugin-woocommerce_2.jpg" alt="plugin-woocommerce_2.png"></div>
+	
+</div>
+
+<div class="section-content" id="theme_options">
+	<h2 class="border-2">Theme Options</h2>
+	<p>Fashionist has an advanced Theme Options panel that is loaded with options. We have the options organized into logical tabbed sections, and each option has a description of what it will do on the front end. There are too many options to go over in these docs but please take some time and navigate through each tab to see what we offer. Go to <strong>Fashionist Options</strong> in your WordPress admin to access the theme options panel. You can also backup your theme options by clicking on the <strong>Import/Export</strong> tab. That is a great way to move your custom options from site to site. See below for screenshots of our theme options panel. Please note: we are always adding new options so these screenshots may not reflect the most up to date options.</p>
+	<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+			<li data-target="#carousel-example-generic1" data-slide-to="3"></li>
+			<li data-target="#carousel-example-generic1" data-slide-to="4"></li>
+
+		</ol>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="images/Theme-option-header.png" alt="Theme-option-header.png">
+			</div>
+			<div class="item">
+				<img src="images/theme-option-blog.png" alt="theme-option-blog.png">
+			</div>
+			<div class="item">
+				<img src="images/theme-option-footer.png" alt="theme-option-footer.png">
+			</div>
+			<div class="item">
+				<img src="images/theme-option-font.png" alt="theme-option-font.png">
+			</div>
+			<div class="item">
+				<img src="images/theme-option-woo-commerce.png" alt="theme-option-woo-commerce.png">
+			</div>
+			
+		</div>
+		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<p>&nbsp;</p>
+	<table class="table table-striped">
+		<tbody>
+			<tr>
+				<td class="text-right"><span class="label label-primary text-color3">Header Setting</span></td>
+				<td>- These options allow you to change some set Header options such as logo image, Favicon Icon, top text etc</td>
+			</tr>
+			<tr>
+				<td class="text-right"><span class="label label-primary text-color3">Blog Setting</span></td>
+				<td>- These options allow you to set some Blog option</td>
+			</tr>
+			<tr>
+				<td class="text-right"><span class="label label-primary text-color3">Footer Setting</span></td>
+				<td>- These options allow you to set some footer option and social icons</td>
+			</tr>
+			<tr>
+				<td class="text-right"><span class="label label-primary text-color3">Font Settings</span></td>
+				<td>- These options allow you to change fonts of website</td>
+			</tr>
+			<tr>
+				<td class="text-right"><span class="label label-primary text-color3">Woocommerce Setting</span></td>
+				<td>- These options allow you to choose options for woocommerce page.</td>
+			</tr>
+			
+		</tbody>
+	</table>
+</div>
+<div class="section-content" id="change_your_logo">
+	<h2>Change your logo</h2>
+	<table class="table table-striped">
+		<tbody>
+			<tr>
+				<td width="60"><span class="label label-primary text-color3">Step 1</span></td>
+				<td>Log in to your WordPress Administration Panel (Dashboard).</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary text-color3">Step 2</span></td>
+				<td>Go to <kbd><kbd>Theme Options</kbd></kbd></td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary text-color3">Step 3</span></td>
+				<td>Click the <kbd>Header Setting</kbd> tab</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary text-color3">Step 4</span></td>
+				<td>Edit <kbd>Logo Text</kbd></td>
+
+			</tr>
+			<tr>
+				<td><span class="label label-primary text-color3">Step 5</span></td>
+				<td>Click the <kbd>Save change</kbd></td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="text-center"><img src="images/header-logo.png" alt="header-logo"></div>
+</div>
+<div class="section-content" id="menus_configuration">
+	<h2 class="border-2">Menus configuration</h2>
+	<h3>Create A New Menu</h3>
+	<table class="table table-striped">
+		<tbody>
+			<tr>
+				<td width="55"><span class="label label-primary text-color3">Step 1</span></td>
+				<td>Login to the WordPress Dashboard.</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary text-color3">Step 2</span></td>
+				<td>Please go to <kbd><kbd>Appearance</kbd> &gt; <kbd>Menus</kbd></kbd></td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="text-center" style="margin-bottom: 35px"><img src="images/theme-config-mega-menu1.jpg" alt="theme-config-mega-menu1.jpg"></div>
+	<table class="table table-striped">
+		<tbody>
+			<tr>
+				<td width="55"><span class="label label-primary text-color3">Step 3</span></td>
+				<td>Select <span style="text-decoration: underline;"><strong>Create a new menu</strong></span> at the top of the page</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary text-color3">Step 4</span></td>
+				<td>Enter a name for your new menu in the <strong>Menu Name</strong> box</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary text-color3">Step 5</span></td>
+				<td>Click the <strong>Create Menu</strong> button.</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>To know more about adding items to a menu, deleting a menu item, etc. Please see: <a class="text-color1" href="https://codex.wordpress.org/WordPress_Menu_User_Guide" target="_blank">WordPress Menu User Guide</a>, <a class="text-color1" href="https://codex.wordpress.org/Appearance_Menus_Screen" target="_blank">Appearance Menus Screen</a></p>
+	
+	<table class="table table-striped">
+		<tbody>
+			<tr>
+				<td width="55"><span class="label label-primary text-color3">Step 3</span></td>
+				<td>From the pull down box, select the menu that will be presented in the location such as <strong>Primary Menu</strong>, </td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary text-color3">Step 4</span></td>
+				<td>Click to save the location selection.</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3>Mega Menu</h3>
+	<img alt="theme-config-mega-menu1.jpg" src="images/megamenu.png">
+	<table class="table table-striped">
+		<tbody>
+			<tr>
+				<td width="55"><span class="label label-primary text-color3">Step 1</span></td>
+				<td>Enable Mega menu from left side from menu location </td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary text-color3">Step 2</span></td>
+				<td>Home on top menu and then click on <strong>Mega menu</strong></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div class="section-content" id="create_blog_page">
+	<h2 class="border-2">Create blog page</h2>
+	<h3>Create a new page</h3>
+	<table class="table table-striped">
+		<tbody>
+			<tr>
+				<td><span class="label label-primary">Step 1</span></td>
+				<td>Log in to your WordPress Administration Panel (Dashboard).</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary">Step 2</span></td>
+				<td>Click the <kbd><kbd>Pages</kbd> &gt; <kbd>Add new</kbd></kbd>.</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary">Step 3</span></td>
+				<td>Start filling in the blanks. To create a blog page, you don't need enter the content for it, because we use the page template</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary">Step 4</span></td>
+				<td>When you are ready, click <kbd>Publish</kbd></td>
+			</tr>
+		</tbody>
+	</table>
+	<h3>Blog default configuration</h3>
+	<div class="docs-image text-center"><img src="images/fashionist-blog-no-side1.png" alt="fashionist-blog-no-side1.png"></div>
+	<p>It easy to config a Default blog page. when you are creating new page, you only choose <strong>Blog</strong> for <strong>Page attribute</strong></p>
+	<div class="docs-image text-center"><img src="images/fashionist-blog-no-side2.png" alt="fashionist-blog-no-side2.png"></div>
+	<h3>Blog List Configuration</h3>
+	<div class="docs-image text-center"><img src="images/fashionist-blog-with-side2.png" alt="fashionist-blog-with-side2.png"></div>
+	<p>The same as blog default, when you are creating new page, you choose <strong>Blog List</strong> for <strong>Page attribute</strong></p>
+	<div class="docs-image text-center"><img src="images/fashionist-blog-with-side1.png" alt="fashionist-blog-with-side2.png"></div>
+	
+</div>
+<div class="section-content" id="create_contact_page">
+	<h2 class="border-2">Create Contact page</h2>
+	<div class="docs-image text-center"><img src="images/contactus1.png" class="img-responsive" alt="images/contactus1.png"></div>
+	<table class="table table-striped" style="margin-top: 35px">
+		<tbody>
+			<tr>
+				<td width="55"><span class="label label-primary">Step 1</span></td>
+				<td>Log in to your WordPress Administration Panel (Dashboard).</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary">Step 2</span></td>
+				<td>Create a contact form by <strong>Contact form 7</strong> (to know how to use contact form 7, please read <strong><a class="text-color1" href="http://contactform7.com/docs/" target="_blank">here</a></strong>).</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary">Step 3</span></td>
+				<td>Go to <kbd><kbd>Pages</kbd> - <kbd>Add New</kbd></kbd></td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary">Step 4</span></td>
+				<td>Enter your page title.</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary">Step 5</span></td>
+				<td>
+					<p>Enter your contact page conent, you can use Visual composer to build the content for this page:</p>
+					<p><span class="label label-default">Contact form 7 shortcode</span></p>
+					<div class="docs-image text-center"><img src="images/fashionist-contact-shortcode.jpg" alt="fashionist-contact-shortcode.jpg"></div>
+					<p><span class="label label-default">Google maps shortcode</span></p>
+					<div class="docs-image text-center"><img src="images/how-to-create-g-map.png" alt="how-to-create-g-map.png"></div>
+					<p><span class="label label-default">Fashionist Box-Information</span></p>
+					<div class="docs-image text-center"><img src="images/Fashionist-box-info.png" alt="Fashionist-box-info.png"></div>
+				</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary">Step 6</span></td>
+				<td>When you are ready, click <kbd>Publish</kbd></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div class="section-content" id="woocommerce_products_slider">
+	<h2 class="border-2">Woocommerce products Slider</h2>
+
+	<div class="docs-image text-center"><img src="images/product_slider_sht.png" alt="product_slider_sht.png"></div>
+
+	<p>In this guide, you should pay attention to the two shortcode: <span class="label label-info">Per Category Limit</span> <span class="label label-info">Set Style</span></p>
+
+	
+
+	<table class="table table-striped">
+		<tbody>
+		<tr>
+			<td width="55"><span class="label label-primary">Title</span></td>
+			<td>Enter title to display</td>
+		</tr>
+		<tr>
+			<td><span class="label label-primary">Display Product Limit</span></td>
+			<td>Enter product limit will display in front side</td>
+		</tr>
+
+		</tbody>
+	</table>
+
+	<div class="docs-image text-center"><img src="images/product_slider.png" class="img-responsive" alt="shortcode-woo3.jpg"></div>				
+</div>
+<div class="section-content" id="woocommerce_latest_product">
+	<h2 class="border-2">Woocommerce Latest products</h2>
+
+	<div class="docs-image text-center"><img src="images/latest_product_sht.png" alt="latest_product_sht.png"></div>
+
+	<p>In this guide, you should pay attention to the two shortcode: <span class="label label-info">Per Category Limit</span> <span class="label label-info">Set Style</span></p>
+
+	
+
+	<table class="table table-striped">
+		<tbody>
+		<tr>
+			<td width="55"><span class="label label-primary">Title</span></td>
+			<td>Enter title to display</td>
+		</tr>
+		<tr>
+			<td width="55"><span class="label label-primary">Description</span></td>
+			<td>Enter detail will display</td>
+		</tr>
+		<tr>
+			<td><span class="label label-primary">Display Product Limit</span></td>
+			<td>Enter product limit will display in front side</td>
+		</tr>
+
+		</tbody>
+	</table>
+
+	<div class="docs-image text-center"><img src="images/latest_product.png" class="img-responsive" alt="shortcode-woo3.jpg"></div>				
+</div>
+<div class="section-content" id="woocommerce_category_product">
+	<h2 class="border-2">Woocommerce Category products</h2>
+
+	<div class="docs-image text-center"><img src="images/category_product_sht.png" alt="category_product_sht.png"></div>
+
+	<p>In this guide, you should pay attention to the two shortcode: <span class="label label-info">Per Category Limit</span> <span class="label label-info">Set Style</span></p>
+
+	
+
+	<table class="table table-striped">
+		<tbody>
+		<tr>
+			<td width="55"><span class="label label-primary">Title</span></td>
+			<td>Enter title to display</td>
+		</tr>
+		<tr>
+			<td><span class="label label-primary">Per Category Limit</span></td>
+			<td>Enter per category limit will display product's per category</td>
+		</tr>
+		<tr>
+			<td><span class="label label-primary">Category slug</span></td>
+			<td>Enter category slug which will display</td>
+		</tr>
+
+		</tbody>
+	</table>
+	<div class="docs-image text-center"><img src="images/category_product.png" class="img-responsive" alt="category_product_sht.jpg"></div>				
+		
+</div>
+<div class="section-content" id="woocommerce_category">
+	<h2 class="border-2">Woocommerce Category</h2>
+
+	<div class="docs-image text-center"><img src="images/category_sht.png" alt="category_sht.png"></div>
+
+	<p>In this guide, you should pay attention to the two shortcode: <span class="label label-info">Per Category Limit</span> <span class="label label-info">Set Style</span></p>
+
+	
+
+	<table class="table table-striped">
+		<tbody>
+		<tr>
+			<td width="55"><span class="label label-primary">Title</span></td>
+			<td>Enter title to display</td>
+		</tr>
+		<tr>
+			<td width="55"><span class="label label-primary">Description</span></td>
+			<td>Enter detail will display</td>
+		</tr>
+		<tr>
+			<td><span class="label label-primary">Category slug</span></td>
+			<td>Enter category slug which will display</td>
+		</tr>
+		<tr>
+			<td><span class="label label-primary">Style</span></td>
+			<td>Select style</td>
+		</tr>
+
+		</tbody>
+	</table>
+	<h2 class="border-2">Style 1</h2>		
+	<div class="docs-image text-center"><img src="images/category_1.png" class="img-responsive" alt="shortcode-woo3.jpg"></div>				
+	<h2 class="border-2">Style 2</h2>		
+	<div class="docs-image text-center"><img src="images/category_2.png" class="img-responsive" alt="shortcode-woo3.jpg"></div>				
+</div>
+
+
+<div class="section-content" id="theme_update">
+	<h2 class="border-2">Theme update via WP or via FTP</h2>
+	<h3>Download Latest Version</h3>
+	<p>You can download the latest version of your theme in <strong><a href="http://themeforest.net/downloads" target="_blank">http://themeforest.net/downloads</a></strong></p>
+	
+	<h3>Theme Update Via WordPress</h3>
+	<p>The easiest way to manually update your theme is to upload it via the WP dashboard.</p>
+	<table class="table table-striped">
+		<tbody>
+			<tr>
+				<td width="55"><span class="label label-primary">Step 1</span></td>
+				<td>Log in to your WordPress Administration Panel (Dashboard).</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary">Step 2</span></td>
+				<td>Go to <kbd><kbd>Apprearance</kbd> &gt; <kbd>Themes</kbd></kbd>.</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary">Step 3</span></td>
+				<td><strong>Deactivate</strong> the <strong>Fashionist</strong> theme by simply activating a different theme.</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary">Step 4</span></td>
+				<td><strong>Delete</strong> the <strong>Fashionist</strong> theme. Do not worry, your content will not be lost!</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary">Step 5</span></td>
+				<td>Click <kbd><kbd>Install Themes</kbd> &gt; <kbd>Upload</kbd> &gt; <kbd>Browse</kbd></kbd> and select the zip file (<strong>Fashionist-v[x].zip</strong>) to upload.</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary">Step 6</span></td>
+				<td>Once it uploaded, you <strong>activate</strong> it again.</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3>Theme Update Via FTP</h3>
+	<table class="table table-striped">
+		<tbody>
+			<tr>
+				<td width="60"><span class="label label-primary text-color3">Step 1</span></td>
+				<td>Login your FTP and go to <strong>wp-content/themes/</strong> folder.</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary text-color3">Step 2</span></td>
+				<td>Delete the <strong>Fashionist</strong> folder (we recommend you to backup this folder).</td>
+			</tr>
+			<tr>
+				<td><span class="label label-primary text-color3">Step 3</span></td>
+				<td>Unzip <strong>Fashionist-v[x].zip</strong> to get the <strong>Fashionist</strong> theme folder, then you upload this folder to <strong>wp-content/themes/</strong></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div class="section-content" id="credits">
+    <h1 id="credits" class="page-header">Credits</h1>
+      <p>Below we present a list of all external codes (frameworks, libraries, plugins, templates and more) which were used to build Fashionist theme.</p>
+    
+    <h3 id="credits-frameworks">Frameworks</h3>
+    <table class="table table-bordered">
+        <tbody>
+            <tr>
+                <td><strong>Bootstrap</strong> v3.3.7</td>
+                <td>The most popular front-end framework.</td>
+                <td><a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a></td>
+            </tr>
+            <tr>
+                <td><strong>jQuery</strong> 1.10.1</td>
+                <td>JavaScript fast, small, and feature-rich library designed to simplify the client-side scripting.</td>
+                <td><a href="http://jquery.com/" target="_blank">http://jquery.com/</a></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h3 id="credits-wp-plugins">Plugins <span class="text-muted">(JavaScript)</span></h3>
+    <table class="table table table-bordered">
+		<tbody>
+            <tr>
+                <td><strong>LightBox</strong></td>
+                <td>The original lightbox script.</td>
+                <td><a href="http://lokeshdhakar.com/projects/lightbox2/" target="_blank">http://lokeshdhakar.com/projects/lightbox2/</a></td>
+            </tr>
+            <tr>
+                <td><strong>Revolution Slider</strong></td>
+                <td>Used for banner slider </td>
+                <td><a href="http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848" target="_blank">http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848</a></td>
+            </tr>
+            <tr>
+                <td><strong>Super. Simple. Slider.</strong></td>
+                <td>Used for the mini slider on home pages.</td>
+                <td><a href="http://supersimpleslider.com/" target="_blank">http://supersimpleslider.com/</a></td>
+            </tr>
+            <tr>
+                <td><strong>Perfect Scrollbar</strong></td>
+                <td>Used for scrollbar on shop sidebar</td>
+                <td><a href="https://github.com/noraesae/perfect-scrollbar" target="_blank">https://github.com/noraesae/perfect-scrollbar</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h3 id="credits-wp-plugins">Plugins <span class="text-muted">(Wordpress)</span></h3>
+    <table class="table table table-bordered">
+        <tbody>
+            <tr>
+                <td><strong>Advanced Custom Fields PRO</strong></td>
+                <td>Used for Custom Fields</td>
+                <td><a href="https://www.advancedcustomfields.com/" target="_blank">https://www.advancedcustomfields.com/</a></td>
+            </tr>
+            <tr>
+                <td><strong>contact form 7</strong></td>
+                <td>Contact Form.</td>
+                <td><a href="http://contactform7.com/" target="_blank">http://contactform7.com/</a></td>
+            </tr>
+            <tr>
+                <td><strong>Social Login WordPress Plugin - AccessPress Social Login Lite</strong></td>
+                <td>Social Login</td>
+                <td><a href="https://wordpress.org/plugins/accesspress-social-login-lite/" target="_blank">https://wordpress.org/plugins/accesspress-social-login-lite/</a></td>
+            </tr>
+            <tr>
+                <td><strong>Revolution Slider</strong></td>
+                <td>Used for banner slider </td>
+                <td><a href="http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848" target="_blank">http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848</a></td>
+            </tr>
+            <tr>
+                <td><strong>mailchimp </strong></td>
+                <td>Used for Newsletter</td>
+                <td><a href="https://wordpress.org/plugins/mailchimp-for-wp/" target="_blank">https://wordpress.org/plugins/mailchimp-for-wp/</a></td>
+            </tr>
+            <tr>
+                <td><strong>mega menu</strong></td>
+                <td>Used for mega menu</td>
+                <td><a href="https://wordpress.org/plugins/megamenu/" target="_blank">https://wordpress.org/plugins/megamenu/</a></td>
+            </tr>
+            <tr>
+                <td><strong>WPBakery Visual Composer</strong></td>
+                <td>Visual Composer </td>
+                <td><a href="https://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431" target="_blank">https://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431</a></td>
+            </tr>
+            <tr>
+                <td><strong>woocommerce</strong></td>
+                <td>Used for E-commerce</td>
+                <td><a href="https://woocommerce.com/" target="_blank">https://woocommerce.com/</a></td>
+            </tr>
+
+            <tr>
+                <td><strong>yith woocommerce wishlist</strong></td>
+                <td>Used for E-commerce Wishlist</td>
+                <td><a href="https://wordpress.org/plugins/yith-woocommerce-wishlist/" target="_blank">https://wordpress.org/plugins/yith-woocommerce-wishlist/</a></td>
+            </tr>
+
+            <tr>
+                <td><strong>YITH WooCommerce Ajax Product Filter</strong></td>
+                <td>Used for E-commerce Product Filter</td>
+                <td><a href="https://wordpress.org/plugins/yith-woocommerce-ajax-navigation/" target="_blank">https://wordpress.org/plugins/yith-woocommerce-ajax-navigation/</a></td>
+            </tr>
+
+            <tr>
+                <td><strong>yith woocommerce ajax navigation</strong></td>
+                <td>Used for E-commerce ajax navigation</td>
+                <td><a href="https://wordpress.org/plugins/yith-woocommerce-ajax-navigation/" target="_blank">https://wordpress.org/plugins/yith-woocommerce-ajax-navigation/</a></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h3 id="credits-fonts">Fonts</h3>
+    <table class="table table table-bordered">
+       <tbody>
+            <tr>
+                <td><strong>Open Sans</strong></td>
+                <td>Google Fonts</td>
+                <td><a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">https://fonts.google.com/specimen/Open+Sans</a></td>
+            </tr>
+            <tr>
+                <td><strong>Montserrat</strong></td>
+                <td>Google Fonts</td>
+                <td><a href="https://fonts.google.com/specimen/Montserrat" target="_blank">https://fonts.google.com/specimen/Montserrat</a></td>
+            </tr>
+            <tr>
+                <td><strong>Lobster</strong></td>
+                <td>Google Fonts</td>
+                <td><a href="https://fonts.google.com/specimen/Lobster" target="_blank">https://fonts.google.com/specimen/Lobster</a></td>
+            </tr>
+			<tr>
+                <td><strong>Old Standard TT</strong></td>
+                <td>Google Fonts</td>
+                <td><a href="https://fonts.google.com/specimen/Old+Standard+TT" target="_blank">https://fonts.google.com/specimen/Old+Standard+TT</a></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    
+    <h3 id="credits-preview-images">Preview Images</h3>
+    <table class="table table table-bordered">
+        <tbody>
+            <tr>
+                <td><strong>Photodune</strong></td>
+                <td><a href="http://photodune.net" target="_blank">http://photodune.net</a></td>
+            </tr>
+            <tr>
+                <td><strong>Shutterstock</strong></td>
+                <td><a href="https://www.shutterstock.com" target="_blank">https://www.shutterstock.com</a></td>
+            </tr>
+            <tr>
+                <td><strong>Pinterest</strong></td>
+                <td><a href="https://de.pinterest.com/pin/36943659419691959/" target="_blank">https://www.pinterest.com</a></td>
+            </tr>
+                        <tr>
+                <td><strong>styleclassandmore</strong></td>
+                <td><a href="http://styleclassandmore.tumblr.com/image/120169696909" target="_blank">http://styleclassandmore.tumblr.com/image/120169696909</a></td>
+            </tr>
+            <tr>
+                <td><strong>parfaitgentleman</strong></td>
+                <td><a href="http://www.parfaitgentleman.com/" target="_blank">http://www.parfaitgentleman.com/</a></td>
+            </tr>
+            <tr>
+                <td><strong>JCrew</strong></td>
+                <td><a href="https://www.jcrew.com/" target="_blank">https://www.jcrew.com/</a></td>
+            </tr>
+             <tr>
+                <td><strong>designspiration</strong></td>
+                <td><a href="http://designspiration.net/image/4617492756152/" target="_blank">http://designspiration.net/image/4617492756152/</a></td>
+            </tr>
+            <tr>
+                <td><strong>niceleak.tumblr.com</strong></td>
+                <td><a href="http://niceleak.tumblr.com/post/79203517391/niceleak-other-own-design-hope-u-like-follow?is_related_post=1" target="_blank">http://niceleak.tumblr.com/post/79203517391/niceleak-other-own-design-hope-u-like-follow?is_related_post=1</a></td>
+            </tr>
+            <tr>
+                <td><strong>designspiration</strong></td>
+                <td><a href="http://designspiration.net/image/596759771446/" target="_blank">http://designspiration.net/image/596759771446/</a></td>
+            </tr>
+            <tr>
+                <td><strong>designspiration</strong></td>
+                <td><a href="http://designspiration.net/image/596759314209/" target="_blank">http://designspiration.net/image/596759314209/</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+</div>
+</div>
+
+<footer>
+	<div class="go-top-buton btn btn-primary"><span class="glyphicon glyphicon-chevron-up"></span></div>
+	<div class='container'>
+	<small> Copyright Themeplanet 2018 </small>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,450 @@
+/*
+Theme Name: Fashionist
+Theme URI: http://kl-webmedia.com/demo/wp/fashionist-wp/
+Author: KL-Webmedia
+Author URI: http://themeforest.net/user/kl-webmedia
+Description: Fashionist is a Responsive WooCommerce WordPress Theme.
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, left-sidebar, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, sticky-post, threaded-comments, translation-ready
+Text Domain: fashionist
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+    ## Links
+    ## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+    ## Posts and pages
+    ## Asides
+    ## Comments
+# Infinite scroll
+# Media
+    ## Captions
+    ## Galleries
+--------------------------------------------------------------*/
+
+
+/*------ Default wordpress Classes----*/
+
+.sticky, .gallery-caption, .bypostauthor {}
+
+.page-links {
+    margin-bottom: 15px;
+}
+
+.page-links span {
+    padding-right: 10px;
+}
+
+.screen-reader-text {
+    display: none;
+}
+
+.wp-caption {
+    margin-bottom: 1.75em;
+    max-width: 100%;
+}
+
+.wp-caption .wp-caption-text {
+    color: #686868;
+    font-style: italic;
+    line-height: 1.61538;
+    padding-top: 0.538462em;
+}
+
+.alignleft {
+    float: left;
+    margin: 0.375em 1.75em 1.75em 0;
+}
+
+.alignright {
+    float: right;
+    margin: 0.375em 0 1.75em 1.75em;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: 0 auto 1.75em;
+}
+
+.search-form input[type="search"] {
+    border: 1px solid #cdcdcd;
+    float: left;
+    padding: 13px 14px;
+    width: calc(100% - 68px);
+}
+
+.search-form input[type="submit"] {
+    background: #000000 none repeat scroll 0 0;
+    padding: 14.5px 7.2px;
+    margin-left: 0;
+    border: none;
+    height: inherit;
+    line-height: inherit;
+    color: #fff;
+    font-weight: normal;
+    width: 68px;
+}
+
+.blog #mainh {
+    margin-bottom: 50px;
+}
+
+footer ul li {
+    list-style: outside none none;
+}
+
+.content a, a.reset_variations, a.action, .woocommerce-message a {
+    color: #675a48
+}
+
+a {
+    text-decoration: none;
+}
+
+.entry-content-post a {
+    box-shadow: 0 1px 0 0 currentColor;
+}
+
+.entry-content-post a:hover {
+    box-shadow: none;
+}
+
+.entry-content-post .woocommerce a , .gallery-item a , .entry-content-post .attachment a , .entry-content-post figure a  {
+    box-shadow: none;
+}
+
+.entry-content-post h2 {
+    font-family: inherit;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+blockquote {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #1a1a1a;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 0 0 4px;
+    color: #686868;
+    font-size: 1.1875rem;
+    font-style: italic;
+    line-height: 1.47368;
+    margin: 0 0 1.47368em;
+    overflow: hidden;
+    padding: 0 0 0 1.26316em;
+}
+
+dt {
+    font-weight: 700;
+}
+
+pre {
+    border: 1px solid #d1d1d1;
+    font-size: 1rem;
+    line-height: 1.3125;
+    margin: 0 0 1.75em;
+    max-width: 100%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    padding: 1.75em;
+    white-space: pre-wrap;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.sidebar ul li {
+    list-style: none;
+    color: #565656;
+    padding: 20px 0 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #565656;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+.gallery-item {
+    display: inline-block;
+    max-width: 33.33%;
+    padding: 0 1.14007% 2.28013%;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.gallery-columns-1 .gallery-item {
+    max-width: 100%;
+}
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+.gallery-columns-6 .gallery-caption, .gallery-columns-7 .gallery-caption, .gallery-columns-8 .gallery-caption, .gallery-columns-9 .gallery-caption {
+    display: none;
+}
+
+.gallery-caption {
+    color: #686868;
+    display: block;
+    font-style: italic;
+    line-height: 1.61538;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+/*------ Default wordpress Classes----*/
+
+.img-responsive {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+.search-content a.blog-readmore, .search-content h2.blog-post-title {
+    margin-top: 0px;
+}
+
+#our-journal .tagged> a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.choose .nav-tabs, .choose-cat .nav-tabs {
+    margin: 0;
+    padding: 0;
+}
+
+.choose .nav-tabs> li, .choose-cat .nav-tabs> li {
+    display: inline;
+    float: none;
+    list-style: outside none none;
+    width: auto;
+}
+
+.choose .nav-tabs> li.active> a, .choose-cat .nav-tabs> li.active> a, .nav-tabs> li.active> a:focus, .nav-tabs> li.active> a:hover, .nav-tabs, .nav-tabs> li> a:hover, .nav-tabs> li> a {
+    border: none;
+}
+
+.choose .nav-tabs> li::after, .choose-cat .nav-tabs> li::after {
+    content: "/";
+    padding: 0 15px;
+}
+
+.choose .nav-tabs> li:last-child::after, .choose-cat .nav-tabs> li:last-child::after {
+    content: "";
+}
+
+.actions.show .added_to_cart.wc-forward {
+    display: none;
+}
+
+.footer_right .menu-item.menu-item-type-custom.menu-item-object-custom {
+    list-style: none;
+}
+
+.footer_right .menu {
+    padding-left: 0;
+}
+
+.item-detailsbtn {
+    margin: 0 auto;
+    text-align: center;
+    width: 100% !important;
+}
+
+.item-detailsbtn a.btn-item-delete {
+    display: inline-block !important;
+    margin-top: 0 !important;
+}
+
+.error-404 {
+    text-align: center;
+    color: #675a48;
+    font-family: "Old Standard TT", serif;
+}
+
+.error-404 .errorText {
+    font-size: 150px;
+    margin-bottom: 0;
+}
+
+#add_payment_method #payment div.payment_box, .woocommerce-cart #payment div.payment_box, .woocommerce-checkout #payment div.payment_box {
+    background: transparent !important;
+    position: absolute !important;
+}
+
+.wc_payment_method {
+    background: #f2f2f2 none repeat scroll 0 0;
+    border-right: 1px solid;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 24%;
+}
+
+.wc_payment_method> label, .wc_payment_method> input {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.variations_form.cart, .variations_form.cart .variations, .variations_form.cart .variations> tbody {
+    width: 100%;
+}
+
+.variations_form.cart .variations> tbody .value> div {
+    float: left;
+}
+
+.woocommerce table.shop_table td {
+    padding: 6px 0 !important;
+}
+
+.box.fashionist_info_box:hover, .box.fashionist_info_box:hover> .contact .contact-details {
+    background: #bea88b none repeat scroll 0 0;
+    border-color: #bea88b;
+    color: #ffffff !important;
+}
+
+.added_to_cart.wc-forward {
+    display: none;
+}
+
+.ext {
+    color: rgba(0, 0, 0, 0);
+    height: 0;
+}
+
+.shop_table .shipping td .woocommerce-shipping-calculator, .cupon-code .cross-sells {
+    display: none;
+}
+
+.shipping-calculator-form1 {
+    display: block !important;
+}
+
+.sidebar select {
+    border: 1px solid #d3d3d3;
+    max-width: 100%;
+    padding: 10px;
+    width: 100%;
+}
+
+.tagged a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.name> a {
+    color: #000000;
+}
+
+.content ol, .content ul, dl {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content ol li, .content ul li {
+    margin: 10px 0;
+    line-height: 20px;
+}
+
+dt, dd {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+dl.variation {
+    margin: 0;
+    margin-top: 10px;
+}
+
+dl.variation dt {
+    float: left;
+    margin-right: 10px !important;
+}
+
+dl.variation dt, dl.variation dd {
+    margin: 0;
+    line-height: 1rem;
+}
+
+dl.variation dd p {
+    line-height: inherit !important;
+    margin: 0;
+}
+
+@media (max-width: 1199px) {
+    .menu {
+        padding-left: 0;
+    }
+    .sub-menu {
+        padding-left: 20px;
+    }
+    .menu, .menu li ul li, .menu li {
+        list-style: outside none none;
+    }
+}
+
+@media (max-width: 767px) {
+    .product-listing-view .row.grid {
+        padding: 0 15px !important;
+    }
+}

@@ -1,0 +1,430 @@
+ul.scrybs-navigation-links {
+    float: left;
+}
+ul.scrybs-navigation-links li {
+    float: left;
+}
+ul.scrybs-navigation-links li a {
+    background:#f9f9f9;
+    background: -moz-linear-gradient(top,  #f9f9f9 0%, #e9e9e9 100%);
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#e9e9e9 100%);
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#e9e9e9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0 );
+    border-color: #cacaca #d3d3d3 #afafaf;
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    color: #717171;
+    margin-right:0;
+    border-radius:0 !important;
+    float:left;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-weight: bold;
+}
+ul.scrybs-navigation-links li:first-child a {
+    border-radius:2px 0 0 2px !important;
+}
+ul.scrybs-navigation-links li:last-child a {
+    border-width: 1px 1px 1px 1px !important;
+    border-radius:0 2px 2px 0 !important;
+}
+ul.scrybs-navigation-links li a:hover {
+    text-decoration: none;
+    color:#24a8d0;
+    border-color: #cacaca #d3d3d3 #afafaf;
+}
+.scrybs-section {
+    background: #fff;
+    border-bottom: 1px solid #ededed;
+    clear: both;
+    margin: 30px 0 0;
+    max-width: 900px;
+    overflow: hidden;
+    padding: 20px;
+}
+.scrybs-section-content {
+    float: left;
+    margin-left: 30px;
+    width: 570px;
+}
+.scrybs-section-content .scrybs-section-content-inner {
+    border-bottom: 1px solid #ededed;
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+}
+.scrybs-section-content .scrybs-section-content-inner:last-child {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+.scrybs-section-header {
+    float: left;
+    width: 300px;
+}
+.scrybs-section-header h3 {
+    color: #333;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-top: 15px;
+    transition: all 0.15s linear 0s;
+}
+.apikeyform p.submit {
+    margin-top: 0;
+    padding-top: 0;
+}
+.apikeyform p.remember {
+    margin-top: 0;
+    font-style:italic
+}
+p .lang_url_directories {
+    margin-left: 40px;
+}
+#lang_url_button {
+    float: right;
+}
+#scrybs-source:disabled{
+	cursor:default;
+}
+#scrybs-source{
+	cursor:pointer;
+	min-width: 270px;
+}
+#scrybs-source[readonly="readonly"] {
+    cursor: default !important;
+    background: rgba(255,255,255,.05);
+}
+.tlang {
+    float: left;
+    padding: 5px 0;
+    width:25%;
+}
+.tlanglist {
+    margin-top: 10px;
+}
+.form-table h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding-bottom: 8px;
+}
+.form-table {
+    width:75%;
+}
+.form-table select{
+	min-width: 270px;
+}
+.col-6{
+	width:46%;
+}
+.col-6:first-child{
+	padding-right:15px;
+	float:left;
+}
+.col-6:last-child{
+	padding-left:15px;
+	float:right;
+	width: 30%;
+}
+.col-6 strong.preview{
+	float:left;
+	line-height: 36px;
+    margin-right: 10px;
+}
+.scrybs-switcher-preview {
+	padding: 0 20px;
+}
+.sc-drop.closed ul {
+    display: none;
+}
+.sc-drop:not(.closed) ul {
+    display: block;
+}
+.sc-drop.country-selector ul {
+    background:#fff;
+    box-sizing: border-box;
+    left: 0;
+    position: absolute;
+    top: 37px;
+    width: 100%;
+    margin: 0;
+    border:1px solid #ddd
+}
+.sc-drop.country-selector{
+	background:#fff
+}
+.country-selector{
+	width:auto;z-index:9999 !important;position:relative;display:inline-block;
+}
+.sc-drop.country-selector a{display:block;font-size:13px;float:left;line-height:36px;color:inherit;text-decoration:none;padding:0 10px;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;white-space: nowrap;}
+.sc-drop.country-selector .sc-current a{border:1px solid #ddd;padding: 0 32px 0 10px;cursor:pointer}
+.sc-drop.country-selector .sc-current a:hover{border:1px solid #ccc;}
+.sc-drop.country-selector .sc-current a:focus{box-shadow:none}
+.country-selector ul li {
+    margin: 0;
+}
+.sc-drop.country-selector.sc-openup ul {
+	bottom: 37px !important;
+}
+.sc-drop.country-selector.sc-openup:not(.closed) .sc-current:after {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg); 
+}
+.ul-options span {
+    display: block;
+}
+.ul-options > li {
+    display: inline-block;
+    float: left;
+    width: 65px;
+}
+.sc-drop.country-selector .sc-current:after{
+	display:inline-block;
+	color:rgba(0,0,0,0.25);
+	font-family:"FontAwesome";
+	line-height:39px;
+	position:absolute;
+	right:10px;
+	text-align:center;
+	top:0;
+	transition:all 200ms ease 0s;
+	font-size: 13px;
+	color: rgba(0, 0, 0, 0.2);
+}
+.sc-drop.country-selector:not(.closed) .sc-current:after {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg); 
+}
+.sc-current a i.fa-globe {
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 17px;
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+.sc-drop.country-selector .sc-current.arrow1:after{content:'\f0da';}
+.sc-drop.country-selector .sc-current.arrow2:after{content:'\f054';}
+.sc-drop.country-selector .sc-current.arrow3:after{content:'\f105';}
+.ul-options {
+    float: left;
+    margin: 0;
+    width:100%
+}
+.ul-options li span i {
+    font-size: 22px;
+    line-height: 27px;
+}
+.ul-options > li {
+    float: left;
+    margin-right: 22px;
+    text-align: center;
+    width: auto;
+}
+.ul-options > li span {
+    display: block;
+    float: right;
+    height: 27px;
+}
+.ul-options > li:last-child span{
+    line-height: 27px;
+}
+.ul-options input {
+    margin-top: 5px !important;
+}
+.ul-options li .sc-flags a {
+    line-height: 25px;
+}
+.ul-options select {
+    min-width: auto;
+    width: 100%;
+}
+.sc-list.country-selector a {
+    text-decoration: none;
+}
+.sc-list .sc-current a {
+    text-decoration: underline;
+    display: inline-block;
+}
+.sc-list.country-selector li {
+    display: inline-block;
+    margin:0 5px 0 0;
+    vertical-align: middle;
+}
+.sc-list.country-selector .sc-current {
+    margin-right: 5px;
+}
+.sc-list.country-selector .sc-current {
+    display: inline-block;
+    vertical-align: middle;
+}
+.sc-list.country-selector ul {
+    display: inline;
+    margin: 0;
+}
+#flags-countries .ul-options > li {
+    margin-right: 3%;
+    width: 30%;
+}
+#flags-style li .flstyle2 a {
+    line-height:25px !important;
+}
+.ul-options select option:first-child {
+    font-style: italic;
+    font-weight: bold;
+}
+.sc-flags a:before{
+	display: inline-block;
+	vertical-align: -4px;
+	content:"";
+	margin-right: 5px;
+}
+.sc-flags.flstyle1 a:before{background:url("https://d1zbkuig56xub3.cloudfront.net/flags1.png") no-repeat;width:23px;height:17px}
+.flstyle1.ad a:before{background-position:0 0}.flstyle1.ae a:before{background-position:0 -17px}.flstyle1.ag a:before{background-position:0 -34px}.flstyle1.am a:before{background-position:0 -51px}.flstyle1.ar a:before{background-position:0 -68px}.flstyle1.at a:before{background-position:0 -85px}.flstyle1.au a:before{background-position:0 -102px}.flstyle1.be a:before{background-position:0 -119px}.flstyle1.bf a:before{background-position:0 -136px}.flstyle1.bg a:before{background-position:0 -153px}.flstyle1.bo a:before{background-position:0 -170px}.flstyle1.br a:before{background-position:0 -187px}.flstyle1.ca a:before{background-position:0 -204px}.flstyle1.cd a:before{background-position:0 -221px}.flstyle1.cg a:before{background-position:0 -238px}.flstyle1.ch a:before{background-position:0 -255px}.flstyle1.cl a:before{background-position:0 -272px}.flstyle1.cm a:before{background-position:0 -289px}.flstyle1.cn a:before{background-position:0 -306px}.flstyle1.co a:before{background-position:0 -323px}.flstyle1.cz a:before{background-position:0 -340px}.flstyle1.de a:before{background-position:0 -357px}.flstyle1.dj a:before{background-position:0 -374px}.flstyle1.dk a:before{background-position:0 -391px}.flstyle1.dz a:before{background-position:0 -408px}.flstyle1.ee a:before{background-position:0 -425px}.flstyle1.eg a:before{background-position:0 -442px}.flstyle1.es a:before{background-position:0 -459px}.flstyle1.fi a:before{background-position:0 -476px}.flstyle1.fr a:before{background-position:0 -493px}.flstyle1.ga a:before{background-position:0 -510px}.flstyle1.gb a:before{background-position:0 -527px}.flstyle1.gm a:before{background-position:0 -544px}.flstyle1.gt a:before{background-position:0 -561px}.flstyle1.hn a:before{background-position:0 -578px}.flstyle1.ht a:before{background-position:0 -595px}.flstyle1.hu a:before{background-position:0 -612px}.flstyle1.id a:before{background-position:0 -629px}.flstyle1.ie a:before{background-position:0 -646px}.flstyle1.il a:before{background-position:0 -663px}.flstyle1.in a:before{background-position:0 -680px}.flstyle1.iq a:before{background-position:0 -697px}.flstyle1.ir a:before{background-position:0 -714px}.flstyle1.it a:before{background-position:0 -731px}.flstyle1.jm a:before{background-position:0 -748px}.flstyle1.jo a:before{background-position:0 -765px}.flstyle1.jp a:before{background-position:0 -782px}.flstyle1.kg a:before{background-position:0 -799px}.flstyle1.kn a:before{background-position:0 -816px}.flstyle1.kp a:before{background-position:0 -833px}.flstyle1.kr a:before{background-position:0 -850px}.flstyle1.kw a:before{background-position:0 -867px}.flstyle1.kz a:before{background-position:0 -884px}.flstyle1.la a:before{background-position:0 -901px}.flstyle1.lb a:before{background-position:0 -918px}.flstyle1.lc a:before{background-position:0 -935px}.flstyle1.ls a:before{background-position:0 -952px}.flstyle1.lu a:before{background-position:0 -969px}.flstyle1.lv a:before{background-position:0 -986px}.flstyle1.mg a:before{background-position:0 -1003px}.flstyle1.mk a:before{background-position:0 -1020px}.flstyle1.ml a:before{background-position:0 -1037px}.flstyle1.mm a:before{background-position:0 -1054px}.flstyle1.mt a:before{background-position:0 -1071px}.flstyle1.mx a:before{background-position:0 -1088px}.flstyle1.na a:before{background-position:0 -1105px}.flstyle1.ne a:before{background-position:0 -1122px}.flstyle1.ng a:before{background-position:0 -1139px}.flstyle1.ni a:before{background-position:0 -1156px}.flstyle1.nl a:before{background-position:0 -1173px}.flstyle1.no a:before{background-position:0 -1190px}.flstyle1.om a:before{background-position:0 -1207px}.flstyle1.pa a:before{background-position:0 -1224px}.flstyle1.pe a:before{background-position:0 -1241px}.flstyle1.pg a:before{background-position:0 -1258px}.flstyle1.pk a:before{background-position:0 -1275px}.flstyle1.pl a:before{background-position:0 -1292px}.flstyle1.pt a:before{background-position:0 -1309px}.flstyle1.py a:before{background-position:0 -1326px}.flstyle1.qa a:before{background-position:0 -1343px}.flstyle1.ro a:before{background-position:0 -1360px}.flstyle1.ru a:before{background-position:0 -1377px}.flstyle1.rw a:before{background-position:0 -1394px}.flstyle1.sa a:before{background-position:0 -1411px}.flstyle1.se a:before{background-position:0 -1428px}.flstyle1.sg a:before{background-position:0 -1445px}.flstyle1.sl a:before{background-position:0 -1462px}.flstyle1.sn a:before{background-position:0 -1479px}.flstyle1.so a:before{background-position:0 -1496px}.flstyle1.sv a:before{background-position:0 -1513px}.flstyle1.td a:before{background-position:0 -1530px}.flstyle1.tj a:before{background-position:0 -1547px}.flstyle1.tl a:before{background-position:0 -1564px}.flstyle1.tr a:before{background-position:0 -1581px}.flstyle1.tz a:before{background-position:0 -1598px}.flstyle1.ua a:before{background-position:0 -1615px}.flstyle1.us a:before{background-position:0 -1632px}.flstyle1.ve a:before{background-position:0 -1649px}.flstyle1.vn a:before{background-position:0 -1666px}.flstyle1.ye a:before{background-position:0 -1683px}
+.sc-flags.flstyle2 a:before{width:16px;height:11px;vertical-align:-1px;background:url("https://d1zbkuig56xub3.cloudfront.net/flags2.png") no-repeat}
+.flstyle2.ad a:before{background-position:-16px 0}.flstyle2.ae a:before{background-position:-32px 0}.flstyle2.af a:before{background-position:-48px 0}.flstyle2.ai a:before{background-position:-64px 0}.flstyle2.al a:before{background-position:-80px 0}.flstyle2.am a:before{background-position:-96px 0}.flstyle2.ar a:before{background-position:-112px 0}.flstyle2.at a:before{background-position:-128px 0}.flstyle2.au a:before{background-position:-144px 0}.flstyle2.ba a:before{background-position:-160px 0}.flstyle2.bd a:before{background-position:-176px 0}.flstyle2.be a:before{background-position:0 -11px}.flstyle2.bg a:before{background-position:-16px -11px}.flstyle2.bh a:before{background-position:-32px -11px}.flstyle2.bo a:before{background-position:-48px -11px}.flstyle2.br a:before{background-position:-64px -11px}.flstyle2.bt a:before{background-position:-80px -11px}.flstyle2.ca a:before{background-position:-96px -11px}.flstyle2.catalonia a:before{background-position:-112px -11px}.flstyle2.cg a:before{background-position:-128px -11px}.flstyle2.ch a:before{background-position:-144px -11px}.flstyle2.ci a:before{background-position:-160px -11px}.flstyle2.cl a:before{background-position:-176px -11px}.flstyle2.cm a:before{background-position:0 -22px}.flstyle2.cn a:before{background-position:-16px -22px}.flstyle2.co a:before{background-position:-32px -22px}.flstyle2.cr a:before{background-position:-48px -22px}.flstyle2.cu a:before{background-position:-64px -22px}.flstyle2.cy a:before{background-position:-80px -22px}.flstyle2.cz a:before{background-position:-96px -22px}.flstyle2.de a:before{background-position:-112px -22px}.flstyle2.dk a:before{background-position:-128px -22px}.flstyle2.do a:before{background-position:-144px -22px}.flstyle2.dz a:before{background-position:-160px -22px}.flstyle2.ec a:before{background-position:-176px -22px}.flstyle2.ee a:before{background-position:0 -33px}.flstyle2.eg a:before{background-position:-16px -33px}.flstyle2.es a:before{background-position:-32px -33px}.flstyle2.et a:before{background-position:-48px -33px}.flstyle2.fi a:before{background-position:-64px -33px}.flstyle2.fr a:before{background-position:-80px -33px}.flstyle2.ga a:before{background-position:-96px -33px}.flstyle2.gb a:before{background-position:-112px -33px}.flstyle2.ge a:before{background-position:-128px -33px}.flstyle2.gh a:before{background-position:-144px -33px}.flstyle2.gi a:before{background-position:-160px -33px}.flstyle2.gn a:before{background-position:-176px -33px}.flstyle2.gr a:before{background-position:0 -44px}.flstyle2.gt a:before{background-position:-16px -44px}.flstyle2.hk a:before{background-position:-32px -44px}.flstyle2.hn a:before{background-position:-48px -44px}.flstyle2.hr a:before{background-position:-64px -44px}.flstyle2.hu a:before{background-position:-80px -44px}.flstyle2.id a:before{background-position:-96px -44px}.flstyle2.ie a:before{background-position:-112px -44px}.flstyle2.il a:before{background-position:-128px -44px}.flstyle2.in a:before{background-position:-144px -44px}.flstyle2.iq a:before{background-position:-160px -44px}.flstyle2.ir a:before{background-position:-176px -44px}.flstyle2.is a:before{background-position:0 -55px}.flstyle2.it a:before{background-position:-16px -55px}.flstyle2.jm a:before{background-position:-32px -55px}.flstyle2.jo a:before{background-position:-48px -55px}.flstyle2.jp a:before{background-position:-64px -55px}.flstyle2.ke a:before{background-position:-80px -55px}.flstyle2.kp a:before{background-position:-96px -55px}.flstyle2.kr a:before{background-position:-112px -55px}.flstyle2.kw a:before{background-position:-128px -55px}.flstyle2.kz a:before{background-position:-144px -55px}.flstyle2.lb a:before{background-position:-160px -55px}.flstyle2.li a:before{background-position:-176px -55px}.flstyle2.lt a:before{background-position:0 -66px}.flstyle2.lu a:before{background-position:-16px -66px}.flstyle2.ly a:before{background-position:-32px -66px}.flstyle2.ma a:before{background-position:-48px -66px}.flstyle2.md a:before{background-position:-64px -66px}.flstyle2.mg a:before{background-position:-80px -66px}.flstyle2.mk a:before{background-position:-96px -66px}.flstyle2.mm a:before{background-position:-112px -66px}.flstyle2.mx a:before{background-position:-128px -66px}.flstyle2.my a:before{background-position:-144px -66px}.flstyle2.ne a:before{background-position:-160px -66px}.flstyle2.ng a:before{background-position:-176px -66px}.flstyle2.ni a:before{background-position:0 -77px}.flstyle2.nl a:before{background-position:-16px -77px}.flstyle2.no a:before{background-position:-32px -77px}.flstyle2.nz a:before{background-position:-48px -77px}.flstyle2.om a:before{background-position:-64px -77px}.flstyle2.pa a:before{background-position:-80px -77px}.flstyle2.pe a:before{background-position:-96px -77px}.flstyle2.ph a:before{background-position:-112px -77px}.flstyle2.pk a:before{background-position:-128px -77px}.flstyle2.pl a:before{background-position:-144px -77px}.flstyle2.pr a:before{background-position:-160px -77px}.flstyle2.pt a:before{background-position:-176px -77px}.flstyle2.py a:before{background-position:0 -88px}.flstyle2.qa a:before{background-position:-16px -88px}.flstyle2.ro a:before{background-position:-32px -88px}.flstyle2.rs a:before{background-position:-48px -88px}.flstyle2.ru a:before{background-position:-64px -88px}.flstyle2.sa a:before{background-position:-80px -88px}.flstyle2.sd a:before{background-position:-96px -88px}.flstyle2.se a:before{background-position:-112px -88px}.flstyle2.sg a:before{background-position:-128px -88px}.flstyle2.si a:before{background-position:-144px -88px}.flstyle2.sk a:before{background-position:-160px -88px}.flstyle2.sm a:before{background-position:-176px -88px}.flstyle2.sn a:before{background-position:0 -99px}.flstyle2.so a:before{background-position:-16px -99px}.flstyle2.sv a:before{background-position:-32px -99px}.flstyle2.sz a:before{background-position:-48px -99px}.flstyle2.tg a:before{background-position:-64px -99px}.flstyle2.th a:before{background-position:-80px -99px}.flstyle2.tn a:before{background-position:-96px -99px}.flstyle2.tr a:before{background-position:-112px -99px}.flstyle2.tw a:before{background-position:-128px -99px}.flstyle2.ua a:before{background-position:-144px -99px}.flstyle2.us a:before{background-position:-160px -99px}.flstyle2.uy a:before{background-position:-176px -99px}.flstyle2.ve a:before{background-position:0 -110px}.flstyle2.vn a:before{background-position:-16px -110px}.flstyle2.ye a:before{background-position:-32px -110px}.flstyle2.za a:before{background-position:-48px -110px}
+.sc-flags.flstyle3 a:before{background:url("https://d1zbkuig56xub3.cloudfront.net/flags3.png") no-repeat;width:30px;height:20px;vertical-align: -5px;}
+.flstyle3.ae a:before{background-position:0 0}.flstyle3.af a:before{background-position:0 -20px}.flstyle3.al a:before{background-position:0 -40px}.flstyle3.ar a:before{background-position:0 -60px}.flstyle3.at a:before{background-position:0 -80px}.flstyle3.au a:before{background-position:0 -100px}.flstyle3.az a:before{background-position:0 -120px}.flstyle3.be a:before{background-position:0 -140px}.flstyle3.bf a:before{background-position:0 -160px}.flstyle3.bg a:before{background-position:0 -180px}.flstyle3.bo a:before{background-position:0 -200px}.flstyle3.br a:before{background-position:0 -220px}.flstyle3.by a:before{background-position:0 -240px}.flstyle3.ca a:before{background-position:0 -260px}.flstyle3.cg a:before{background-position:0 -280px}.flstyle3.ch a:before{background-position:0 -300px}.flstyle3.ci a:before{background-position:0 -320px}.flstyle3.cl a:before{background-position:0 -340px}.flstyle3.cm a:before{background-position:0 -360px}.flstyle3.cn a:before{background-position:0 -380px}.flstyle3.co a:before{background-position:0 -400px}.flstyle3.cr a:before{background-position:0 -420px}.flstyle3.cu a:before{background-position:0 -440px}.flstyle3.cy a:before{background-position:0 -460px}.flstyle3.cz a:before{background-position:0 -480px}.flstyle3.de a:before{background-position:0 -500px}.flstyle3.dk a:before{background-position:0 -520px}.flstyle3.do a:before{background-position:0 -540px}.flstyle3.ec a:before{background-position:0 -560px}.flstyle3.ee a:before{background-position:0 -580px}.flstyle3.eg a:before{background-position:0 -600px}.flstyle3.es a:before{background-position:0 -620px}.flstyle3.et a:before{background-position:0 -640px}.flstyle3.fi a:before{background-position:0 -660px}.flstyle3.fr a:before{background-position:0 -680px}.flstyle3.ga a:before{background-position:0 -700px}.flstyle3.ge a:before{background-position:0 -720px}.flstyle3.gh a:before{background-position:0 -740px}.flstyle3.gr a:before{background-position:0 -760px}.flstyle3.gt a:before{background-position:0 -780px}.flstyle3.hn a:before{background-position:0 -800px}.flstyle3.hr a:before{background-position:0 -820px}.flstyle3.ht a:before{background-position:0 -840px}.flstyle3.hu a:before{background-position:0 -860px}.flstyle3.id a:before{background-position:0 -880px}.flstyle3.ie a:before{background-position:0 -900px}.flstyle3.il a:before{background-position:0 -920px}.flstyle3.in a:before{background-position:0 -940px}.flstyle3.iq a:before{background-position:0 -960px}.flstyle3.ir a:before{background-position:0 -980px}.flstyle3.is a:before{background-position:0 -1000px}.flstyle3.it a:before{background-position:0 -1020px}.flstyle3.jm a:before{background-position:0 -1040px}.flstyle3.jp a:before{background-position:0 -1060px}.flstyle3.kr a:before{background-position:0 -1080px}.flstyle3.kz a:before{background-position:0 -1100px}.flstyle3.lb a:before{background-position:0 -1120px}.flstyle3.li a:before{background-position:0 -1140px}.flstyle3.lr a:before{background-position:0 -1160px}.flstyle3.ls a:before{background-position:0 -1180px}.flstyle3.lt a:before{background-position:0 -1200px}.flstyle3.lu a:before{background-position:0 -1220px}.flstyle3.lv a:before{background-position:0 -1240px}.flstyle3.ma a:before{background-position:0 -1260px}.flstyle3.md a:before{background-position:0 -1280px}.flstyle3.mn a:before{background-position:0 -1300px}.flstyle3.mx a:before{background-position:0 -1320px}.flstyle3.my a:before{background-position:0 -1340px}.flstyle3.ne a:before{background-position:0 -1360px}.flstyle3.ng a:before{background-position:0 -1380px}.flstyle3.ni a:before{background-position:0 -1400px}.flstyle3.nl a:before{background-position:0 -1420px}.flstyle3.no a:before{background-position:0 -1440px}.flstyle3.np a:before{background-position:0 -1460px}.flstyle3.nz a:before{background-position:0 -1480px}.flstyle3.pa a:before{background-position:0 -1500px}.flstyle3.pe a:before{background-position:0 -1520px}.flstyle3.ph a:before{background-position:0 -1540px}.flstyle3.pk a:before{background-position:0 -1560px}.flstyle3.pl a:before{background-position:0 -1580px}.flstyle3.pt a:before{background-position:0 -1600px}.flstyle3.py a:before{background-position:0 -1620px}.flstyle3.ro a:before{background-position:0 -1640px}.flstyle3.rs a:before{background-position:0 -1660px}.flstyle3.ru a:before{background-position:0 -1680px}.flstyle3.sa a:before{background-position:0 -1700px}.flstyle3.sd a:before{background-position:0 -1720px}.flstyle3.se a:before{background-position:0 -1740px}.flstyle3.sg a:before{background-position:0 -1760px}.flstyle3.si a:before{background-position:0 -1780px}.flstyle3.sk a:before{background-position:0 -1800px}.flstyle3.sn a:before{background-position:0 -1820px}.flstyle3.sv a:before{background-position:0 -1840px}.flstyle3.sy a:before{background-position:0 -1860px}.flstyle3.sz a:before{background-position:0 -1880px}.flstyle3.th a:before{background-position:0 -1900px}.flstyle3.tn a:before{background-position:0 -1920px}.flstyle3.tr a:before{background-position:0 -1940px}.flstyle3.tw a:before{background-position:0 -1960px}.flstyle3.ua a:before{background-position:0 -1980px}.flstyle3.gb a:before{background-position:0 -2000px}.flstyle3.us a:before{background-position:0 -2020px}.flstyle3.uy a:before{background-position:0 -2040px}.flstyle3.ve a:before{background-position:0 -2060px}.flstyle3.vn a:before{background-position:0 -2080px}.flstyle3.ye a:before{background-position:0 -2100px}.flstyle3.za a:before{background-position:0 -2120px}
+#scrybs-info-box {
+    float: right;
+    position: fixed;
+    right: 3%;
+    width: 20%;
+}
+#scrybs-info-box .sub-box{
+    background: #fff;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border:1px solid #ddd;
+    margin-bottom: 20px;
+    float: left;
+    width:100%
+}
+.logo-scrybs {
+    padding-bottom: 12px;
+    text-align: center;
+}
+#scrybs-info-box h3{
+    background:#f9f9f9;
+    background: -moz-linear-gradient(top,  #f9f9f9 0%, #e9e9e9 100%);
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#e9e9e9 100%);
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#e9e9e9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0 );
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    color: #717171;
+    margin: 0;
+    padding: 16px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.sub-box-preview {
+    background: #fff;
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+    border:1px solid #ddd;
+    border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-width:0
+}
+.sub-box-preview #scrybs_switcher.sc-drop{
+	text-align: center;
+}
+#scrybs-info-box p {
+    padding: 0 15px;
+}
+.gotoscrybs {
+    background:#00B5E0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+.gotoscrybs:hover, .gotoscrybs:focus {
+    background:#00BFEA;
+    color: #fff;
+}
+.logo-scrybs > img {
+    width: 170px;
+}
+#lang-sec-5 h4 {
+    margin-bottom: 0;
+}
+ul.scrybs-actions {
+    float: left;
+    margin-left:12px;
+}
+.scrybs-actions > li {
+    display: inline-block;
+}
+.scrybs-actions > li:first-child {
+    margin-right: 5px;
+}
+.scrybs-actions li button{
+    font-weight: bold;
+    height: auto !important;
+    line-height: 1 !important;
+    padding: 10px !important;
+    vertical-align: middle !important;
+}
+.scrybsbox-blur {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.75);
+	text-align: center;
+	z-index: 200;
+}
+.scrybsbox {
+    background-color: white;
+    display: inline-block;
+    left: 50%;
+    max-width: 550px;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.scrybsbox-title {
+	font-size: 24px;
+	line-height: 1.3;
+}
+.scrybsbox-text {
+	font-size: 18px;
+}
+.scrybsclose-btn {
+	float : right;
+	cursor : pointer;
+	position : relative;
+	top:-10px;
+}
+.scrybsclose-btn:hover {
+	color : #707070;
+	text-decoration:underline;
+}
+.scrybsbox-subtext {
+	font-size : 14px;
+}
+.sticky-menu #adminmenuwrap {
+    height: 100%;
+}
